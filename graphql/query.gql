@@ -1,0 +1,9 @@
+query IDKota($search:String!){
+  IDKota(search:$search){
+    id
+    nama
+    kota
+    provinsi
+    kodepos
+  },
+}
